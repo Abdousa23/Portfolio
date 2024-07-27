@@ -8,6 +8,24 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
+  
+}
+
+.float-animation {
+  animation: float 4s ease-in-out infinite;
+}
 /*
 @media (prefers-color-scheme: dark) {
   :root {

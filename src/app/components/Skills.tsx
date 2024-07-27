@@ -51,7 +51,7 @@ export default function Skills() {
           <Image className='m-2'src={'/pwa.svg'} height={40} width={40} alt='pwa' />
         </li>
       </ul>
-      <div data-aos="fade-up" className='mx-auto w-1/2 max-lg:hidden'>
+      <div data-aos="fade-up" className='mx-auto w-1/2 max-lg:hidden float-animation'>
         <Image src='orbit.svg' height={340} width={900} alt='orbit' />
       </div>
     </div>
