@@ -1,0 +1,33 @@
+'use client'
+import Image from "next/image";
+import Navbar from "./components/Navbar";
+import DevDescription from "./components/DevDescription";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+export default function Home() {
+    useEffect(() => {
+        AOS.init({
+          easing: "ease-out-cubic",
+          once: true,
+          offset: 50,
+          duration: 1000,
+        });
+      }, []);
+  return (
+      <main className="bg-[#11071F]">
+        <Navbar />
+        <div className="container mx-auto">
+        <DevDescription />
+        <Skills />
+        <Projects />
+        <Footer />
+        </div>
+      </main>
+
+  );
+}
