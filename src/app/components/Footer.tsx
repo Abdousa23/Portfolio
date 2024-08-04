@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='w-2/3 mx-auto '>
+    <div id='contact' className='w-2/3 mx-auto '>
       <h1 className='text-2xl w-fit'>Contact me</h1>
       <p className='mt-10 text-base max-w-[800px]'>
       I am currently open and available for new projects. Whether you have a small task or a large project, feel free to reach out. I am eager to collaborate and bring your ideas to life.

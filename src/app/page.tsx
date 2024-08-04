@@ -10,24 +10,24 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Home() {
-    useEffect(() => {
-        AOS.init({
-          easing: "ease-out-cubic",
-          once: true,
-          offset: 50,
-          duration: 1000,
-        });
-      }, []);
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+      duration: 1000,
+    });
+  }, []);
   return (
-      <main className="bg-[#11071F]">
-        <Navbar />
-        <div className="container mx-auto">
+    <main className="bg-[#11071F] w-full">
+      <Navbar />
+      <div className="container mx-auto">
         <DevDescription />
         <Skills />
         <Projects />
         <Footer />
-        </div>
-      </main>
+      </div>
+    </main>
 
   );
 }

@@ -24,7 +24,7 @@ export default function DevDescription() {
   }, [index, displayedText, fullText]);
 
   return (
-    <div className='mt-8'>
+    <div id="home" className='mt-8' >
       <div className='flex justify-start items-center max-md:flex-col md:ml-[11rem] max-md:text-center gap-20'>
         <Image src='/Me.svg' width={200} height={200} alt='me' />
         <h1 className='text-white text-3xl font-bold max-w-[800px]' dangerouslySetInnerHTML={{ __html: displayedText }} />
