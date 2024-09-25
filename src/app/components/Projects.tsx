@@ -12,7 +12,7 @@ export default function Projects() {
       "image": "/edu+.png",
       "isOdd": true,
       "links": {
-        "link": "edu-plus-nine.vercel.app",
+        "link": "https://edu-plus-nine.vercel.app",
         "github": "https://github.com/Abdousa23/Edu-plus"
       }
     },
@@ -27,6 +27,17 @@ export default function Projects() {
         "link": null,
         "github": "https://github.com/Abdousa23/OrgTel"
       }
+    }, {
+      "theme": "Workshop Management System",
+      "title": "mon atelier",
+      "description": "A freelance project for managing a workshop, including managing employees, suppliers,machines, and repair orders.",
+      "technologies": ["React", "Node.js", "expressJs", "MongoDB"],
+      "image": "/monatelier.png",
+      "isOdd": true,
+      "links": {
+        "link": null,
+        "github": "https://github.com/Abdousa23/gestion-atelier-frontend",
+      }
     },
     {
       "theme": "Portfolio Project",
@@ -34,7 +45,7 @@ export default function Projects() {
       "description": "A personal portfolio website showcasing projects, skills, and contact information.",
       "technologies": ["NextJS", "Tailwind CSS"],
       "image": "/portfolio.png",
-      "isOdd": true,
+      "isOdd": false,
       "links": {
         "link": "https://saabderrahemaneportfolio.vercel.app/",
         "github": "https://github.com/Abdousa23/portfolio"
